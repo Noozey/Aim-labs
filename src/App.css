@@ -1,0 +1,67 @@
+* {
+  background-color: rgb(34, 34, 34);
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 0);
+  font-family: Inter;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  width: 1000px;
+  height: 500px;
+  border: 2px solid;
+  padding: 20px;
+  position: absolute;
+  margin-top: 100px;
+  color: black;
+}
+.circles {
+  border-radius: 50%;
+  background-color: rgb(213, 22, 22);
+  border: none;
+  position: absolute;
+}
+.menubox {
+  width: 0%;
+  height: 100vh;
+  background-color: rgb(41, 39, 39);
+  z-index: 999;
+  padding-top: 10px;
+  margin-top: -45px;
+}
+.menuButton {
+  font-size: 18px;
+  border: none;
+  width: fit-content;
+  height: 40px;
+  margin-right: auto;
+}
+.closeMenu {
+  border: none;
+  background-color: inherit;
+}
+.ballMotionButton {
+  background: transparent;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+  background-color: inherit;
+}
+.ballMotionButton > button {
+  width: fit-content;
+  font-size: 18px;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 2.5px;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.ballMotionButton > button:hover {
+  background-color: rgb(63, 61, 61);
+  transition: 0.3s;
+}
